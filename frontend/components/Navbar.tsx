@@ -6,7 +6,7 @@ import { IoMdNotifications } from 'react-icons/io'
 import { VscListFilter } from 'react-icons/vsc'
 const style = {
   wrapper: 'bg-white flex justify-between',
-  navBar: 'p-4 flex justify-between',
+  navBar: 'p-4 flex justify-center',
   searchBar: 'flex justify-between items-center',
   logo: 'h-8 mr-1',
   input: 'bg-[#eef3f8] py-1 rounded-sm',
