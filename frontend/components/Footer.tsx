@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <ul className="displa flex flex-wrap items-center justify-center gap-2">
+    <ul className="flex flex-wrap items-center justify-center gap-2 px-[6rem] py-3 text-xs text-gray-600 ">
       <li>
         <a href=""> About</a>
       </li>

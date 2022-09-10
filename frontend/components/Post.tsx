@@ -27,16 +27,12 @@ const Post = () => {
         </div>
       </div>
       <p>
-        Interesting fact:
-        <br /> Threat actors have a strong preference for the Go programming
-        language
-        <br /> because:
-        <br /> - Its cross-platform support lets hackers target different
-        operating systems <br /> through a common codebase- It is more
-        challenging to analyse and reverse
-        <br /> engineer.
+        Interesting fact: Threat actors have a strong preference for the Go
+        programming language because: - Its cross-platform support lets hackers
+        target different operating systems through a common codebase- It is more
+        challenging to analyse and reverse engineer.
       </p>
-      <div className="flex items-center justify-between border-t border-gray-300 p-2 text-gray-600">
+      <div className="flex items-center justify-between border-t border-gray-300 p-2  text-gray-600">
         <button className="flex items-center space-x-2">
           <AiOutlineLike />
           <span className="font-bold">Like</span>
@@ -47,11 +43,11 @@ const Post = () => {
         </button>
         <button className="flex items-center space-x-2">
           <RiShareForwardLine />
-          <span>Share</span>
+          <span className="font-bold">Share</span>
         </button>
         <button className="flex items-center space-x-2">
           <RiSendPlaneFill />
-          <span>Send</span>
+          <span className="font-bold">Send</span>
         </button>
       </div>
     </div>
