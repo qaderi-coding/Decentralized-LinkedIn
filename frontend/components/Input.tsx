@@ -25,19 +25,19 @@ export const Input = () => {
         </div>
         <div className="flex justify-between gap-12">
           <button className="flex items-center space-x-2">
-            <HiPhotograph />
+            <HiPhotograph className="text-[#378fe9]" />
             <h4>Photo</h4>
           </button>
           <button className="flex items-center space-x-2">
-            <RiVideoFill />
+            <RiVideoFill className="text-[#5f9b41]" />
             <span>Video</span>
           </button>
           <button className="flex items-center space-x-2">
-            <MdEvent />
+            <MdEvent className="text-[#c37d16]" />
             <span>Event</span>
           </button>
           <button className="flex items-center space-x-2">
-            <MdArticle />
+            <MdArticle className="text-[#e16745]" />
             <span>Write article</span>
           </button>
         </div>

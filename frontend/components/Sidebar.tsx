@@ -4,7 +4,7 @@ import Recent from './Recent'
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="side flex min-w-max max-w-lg flex-col gap-3">
       <Profile />
       <Recent />
     </div>

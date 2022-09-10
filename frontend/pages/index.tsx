@@ -6,21 +6,21 @@ import { Input } from '../components/Input'
 import Widgets from '../components/Widgets'
 import Feed from '../components/Feed'
 const style = {
-  wrapper: `bg-[#F3F2EF] dark:bg-black dark:text-white h-screen overflow-y-scroll md:space-y-6`,
-  content: 'flex justify-center items-start gap-x-5 px-4',
+  wrapper: `bg-[#F3F2EF]  h-screen overflow-y-scroll md:space-y-6`,
+  content: 'flex justify-center items-start gap-x-5 w-9/12 mx-auto',
 }
 
 const Home: NextPage = () => (
-  <>
+  <div className={style.wrapper}>
     <Navbar />
-    <div className={style.wrapper}>
+    <div>
       <div className={style.content}>
         <Sidebar />
         <Feed />
         <Widgets />
       </div>
     </div>
-  </>
+  </div>
 )
 
 export default Home

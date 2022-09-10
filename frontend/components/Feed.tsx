@@ -4,7 +4,7 @@ import Post from './Post'
 
 const Feed = () => {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="main flex max-w-lg flex-col gap-3">
       <Input />
       <Post />
       <Post />
